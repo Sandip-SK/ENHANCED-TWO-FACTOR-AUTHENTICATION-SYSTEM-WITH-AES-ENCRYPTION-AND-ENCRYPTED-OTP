@@ -39,7 +39,7 @@ CREATE TABLE `credentials` (
 
 INSERT INTO `credentials` (`email`, `kys`, `iv`) VALUES
 ('akarshbhadani@gmail.com', 0x159c5f78036307732210deaaa6b21f5bb59cb0251bd5c583438adeff13b3c4b8, 0x1570e6712aa61678829387d867b14b4e),
-('sandipkundu06031999@gmail.com', 0xc43236d6c84180853c52155609c74d163816360c38c365f10a73c5f71110bda6, 0xf7bc053bd3fe03523558c8bd12c8f508),
+('sandipkundu@gmail.com', 0xc43236d6c84180853c52155609c74d163816360c38c365f10a73c5f71110bda6, 0xf7bc053bd3fe03523558c8bd12c8f508),
 ('xyz@gmail.com', 0x049a3d0aa001030c6e29029df4b53c23284cb3d5df639c62eee25adabf474899, 0x24f654b880ddd6a19ede74ced31ab473);
 
 -- --------------------------------------------------------
@@ -73,7 +73,7 @@ CREATE TABLE `userinfo` (
 INSERT INTO `userinfo` (`email`, `username`, `password`) VALUES
 ('akarshbhadani@gmail.com', 'Akarsh', 0x5656696f6f436e5469724961354e5252494937706d773d3d),
 ('sandip@gmail.com', 'sandip', 0x7150307146445561394e4169623257756565795753673d3d),
-('sandipkundu06031999@gmail.com', 'Sandip', 0x34424e586133714f516a77304a50765a334a687165513d3d),
+('sandipkundu@gmail.com', 'Sandip', 0x34424e586133714f516a77304a50765a334a687165513d3d),
 ('xyz@gmail.com', 'x', 0x57744e4d3872704e454235784f384f763074636164413d3d);
 
 --
